@@ -21,3 +21,6 @@ jobs:
           background: true
       - run: sleep 5
       - run: npm run test
+      - store_test_results:
+          path: test-results
+
