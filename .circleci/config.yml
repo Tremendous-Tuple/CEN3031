@@ -21,10 +21,3 @@ jobs:
           background: true
       - run: sleep 5
       - run: npm run test
-# Orchestrate or schedule a set of jobs
-workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - build
